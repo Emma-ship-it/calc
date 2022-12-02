@@ -1,0 +1,19 @@
+.milo{
+    width:300px;
+    
+    box-shadow: 2px 2px 15px 8px #222;
+  }
+input{width: 300px;
+height: 60px;}
+.buts{display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+border-bottom:1px solid #999 ;
+border-left:1px solid #999 ;}
+.but{text-align: center;
+cursor: pointer;
+border-top: 1px solid #999;
+border-right: 1px solid lightgray;
+line-height: 80px;}
+input{text-align: right;
+outline: none;}
+.blame:hover{background-color: gray;}
